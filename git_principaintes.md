@@ -12,14 +12,14 @@ Github, por otra parte, es un servicio remoto para almacenar repositorios git. E
 Abrir terminal y escribir `sudo apt-get install git` en el caso de distribuciones como debian, ubuntu...
 En otras distribuciones `sudo pacman -S git`
 
-Tras esto será necesario configurar como mínimo el correo y usuario de la cuenta con que se haya registrado en github, gitlab o cualquier otro servicio, tenga presente que github ofrece beneficios a estudiantes. 
+Tras esto será necesario configurar como mínimo el correo y usuario de la cuenta con que se haya registrado en github, gitlab o cualquier otro servicio. Tenga presente que github ofrece beneficios a estudiantes. 
 ```
 git config --global user.name "NOMBRE"
 git config --global user.email CORREO@example.com 
 ```
-| Nota: no olvidar as comillas del nombre, todo esto será modificable a posteriori. 
+| Nota: no olvidar las comillas del nombre, todo esto será modificable a posteriori. 
 
-Con esto ya estaría terminado y configurado git para usarse, sin embargo también son configurables otros parámetros como el editor de texto, que por defecto suele ser nano. 
+Con esto ya estaría terminado y configurado git para usarse; sin embargo, también son configurables otros parámetros como el editor de texto, que por defecto suele ser nano. 
 Para cambiarlo: `git config --global core.editor "EDITOR"` 
 
 Donde EDITOR es el nombre del editor que dese utilizar, por ejemplo emacs.  
@@ -48,7 +48,7 @@ Para clonar:
 ### Comandos para actualizar el repositorio  
 
 - Actualizar el contenido de la misma: `git pull origin master`
-`origin master`hace referencia a la rama que se desea actualizar, con el objetivo de no liar mucho al principiante tómelo como meras palabras y cuando esté familiarizado le animo a continuar con su investicación sobre ramas. 
+`origin master`hace referencia a la rama que se desea actualizar, con el objetivo de no liar mucho al principiante tómelo como meras palabras y cuando esté familiarizado le animo a continuar con su investigación sobre ramas. 
 **IMPORTANTE Es una buena construmbre hacer un pull siempre, antes de comenzar a trabajar para evitar conflictos**
 
 - Para actualizar el contenido que usted haya creado: 
@@ -67,7 +67,7 @@ constituirán la base para contribuir a un proyecto.
 ### git pull
 
 ```console
-$ git pull <remote <branch-name>
+$ git pull <remote> <branch-name>
 ```
 
 - `<remote>`: Es la dirección remota del repositorio, en nuestro caso 
